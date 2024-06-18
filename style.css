@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+#topbar {
+    background-color: brown;
+    padding: 16px;
+    box-shadow: 0 5px 10px #aaa;
+    margin-bottom: 50px;
+}
+
+#logo {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu-item {
+    font-size: 24px;
+    margin-right: 16px;
+    float: right;
+    cursor: pointer;
+}
+
+.article1 {
+    padding: 18px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 36px;
+    line-height: 1.4;
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.article2 {
+    padding: 18px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 36px;
+    line-height: 1.4;
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.article3 {
+    padding: 18px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 36px;
+    line-height: 1.4;
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.article4 {
+    padding: 18px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 36px;
+    line-height: 1.4;
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.article5 {
+    padding: 18px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 36px;
+    line-height: 1.4;
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.article-wrapper {
+    padding: 0 15%;
+}
+
+.heading {
+    font-size: 36px;
+    text-align: center;
+}
+
+/*descendant selector Article 1 and 2 All article paragraph color change to light pink */
+.article1 p {
+    font-size: 18px;
+    background-color: lightpink;
+}
+
+/* child selector Article 3 and 4 all paragraph color changes to light coral expect div */
+.article2>p {
+    background-color: lightcoral;
+}
+
+/* adjacent Sibling selector Article 5 and 6 after div every paragraph color change to light blue*/
+div+p {
+    background-color: lightblue;
+}
+
+/* adjacent sibling  selector Article 7 and 8 after h3 element every paragraph color change to light green*/
+h3+p {
+    background-color: lightgreen;
+}
+
+/* General Sibling selector Article 9 and 10 after the span every paragraph color chane to light grey  */
+span~p {
+    background-color: lightgrey;
+}
